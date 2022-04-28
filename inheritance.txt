@@ -1,0 +1,26 @@
+
+
+
+
+1)
+
+
+
+
+
+
+
+
+
+
+
+4.
+class Machine{}
+class Computer extends Machine//isA
+{
+	MotherBoard mb=new MotherBoard();
+	
+	Output process(mouse m, keyboard k, monitor mt)
+
+}
+
