@@ -1,26 +1,41 @@
+1)	class Show{}
+
+	class RealityShow extends Shows//isA
+	{
+		Director d=new Director();//hasA
+		
+		Performance  directs(props p, stage s, judges j)
+	}
+	
+
+2) 	class KindOfMaintenance{}
+
+	class HouseholdRepair extends Maintenance//isA
+	{
+		Carpenter hr=new Carpenter();//hasA
+		
+		Furniture repair(hammer h, drillingMachine d, screws s )
+	}
+
+3)	class Building{}
+	
+	class GITC extends Building//isA
+	{
+		ConferenceRoom c=new ConferenceRoom;//hasA
+		
+		Developer teacher(projector p, computer c, students s)
+	}
 
 
 
 
-1)
+4)	class Machine{}
 
-
-
-
-
-
-
-
-
-
-
-4.
-class Machine{}
-class Computer extends Machine//isA
-{
-	MotherBoard mb=new MotherBoard();
+	class Computer extends Machine//isA
+	{
+	MotherBoard mb=new MotherBoard();//hasA
 	
 	Output process(mouse m, keyboard k, monitor mt)
 
-}
+	}
 
