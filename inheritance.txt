@@ -5,8 +5,7 @@
 		Director d=new Director();//hasA
 		
 		Performance  directs(props p, stage s, judges j)
-	}
-	
+	}	
 
 2) 	class KindOfMaintenance{}
 
@@ -25,9 +24,6 @@
 		
 		Developer teacher(projector p, computer c, students s)
 	}
-
-
-
 
 4)	class Machine{}
 
