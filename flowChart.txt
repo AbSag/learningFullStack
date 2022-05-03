@@ -1,18 +1,17 @@
 										LivingBeing			
 					 						 |
 								----------------------------------------------------
-								|										|	
-							  Tree		 					 		   Human(i)
-								|										|think();quest();evolveIntelligence();
-				    --------------------							 		  Person(abs class)
-					|			 |										|doesJob();takesLeave();relax();breathIn();
-			fruitGivingTree	flowerGivingTree			  				  ------------------------------------
-															  |				 	     |
-														    Student(c)			 	 Employee(c)
-															  |study();			  |work();	
-															  |giveExam();			  |takesLeave();
-															  |play();				  |relax();
-																			----------------------------
-																			|	   |	  	   |		 |
-																		Executive   Manager  Director Founder
+								|					       	|	
+							       Tree		 	 		   Human(i)
+								|						|think();quest();evolveIntelligence();
+				   		 -----------------					 Person(abs class)
+						|	       	 |						 |doesJob();takesLeave();relax();breathIn();
+					fruitGivingTree	     flowerGivingTree			   --------------------------------
+												  |				   |
+											    Student(c)			      Employee(c)
+												|study();			|work();	
+												|giveExam();			|takesLeave();
+												 |play();			|relax();
+														    ---------------------------------
+														    |		|	   |	    |																Executive   Manager    Director  Founder
 																						
