@@ -1,0 +1,55 @@
+<p>applicant-details works!</p>
+
+
+<table>
+
+<tr><td>Title</td><td><input type="text"[(ngModel)]="applObj.title"> </td></tr><br>
+<tr><td>First name</td><td><input type="text"[(ngModel)]="applObj.firstName"></td></tr><br>
+<tr><td>Middle name</td><td><input type="text"[(ngModel)]="applObj.middleName"> </td></tr><br>
+<tr><td>Last name</td><td><input type="text"[(ngModel)]="applObj.lastName"> </td></tr><br>
+<tr><td>Maiden name</td><td><input type="text"[(ngModel)]="applObj.maidenName"> </td></tr><br>
+<tr><td>Date of Birth</td><td><input type="date"[(ngModel)]="applObj.dateOfBirth"> </td></tr><br>
+<tr><td>Gender</td><td><input type="text"[(ngModel)]="applObj.gender"> </td></tr><br>
+<tr><td>Place of Birth</td><td><input type="text"[(ngModel)]="applObj.placeOfBirth"> </td></tr><br>
+<tr><td>Country of Birth</td><td><input type="text"[(ngModel)]="applObj.countryOfBirth"> </td></tr><br>
+<tr><td>Marital status</td><td><input type="text"[(ngModel)]="applObj.maritalStatus"> </td></tr><br>
+<tr><td>Aadhar Number</td><td><input type="text"[(ngModel)]="applObj.aadharNum"> </td></tr><br>
+<tr><td>Mobile number</td><td><input type="text"[(ngModel)]="applObj.mobile"> </td></tr><br>
+<tr><td>Email Id</td><td><input type="text"[(ngModel)]="applObj.emailId"> </td></tr><br>
+<tr><td>Father's name</td><td><input type="text"[(ngModel)]="applObj.fatherName"> </td></tr><br>
+<tr><td>Mother's name</td><td><input type="text"[(ngModel)]="applObj.motherName"> </td></tr><br>
+<tr><td>Spouse name</td><td><input type="text"[(ngModel)]="applObj.spouseName"> </td></tr><br>
+<tr><td>ID Type</td><td><input type="text"[(ngModel)]="applObj.idType"> </td></tr><br>
+<tr><td>ID Number</td><td><input type="text"[(ngModel)]="applObj.idNumber"> </td></tr><br>
+<tr><td>Issued on</td><td><input type="date"[(ngModel)]="applObj.issuedOn"> </td></tr><br>
+<tr><td>PAN Card</td><td><input type="text"[(ngModel)]="applObj.panCard"> </td></tr><br>
+<tr><td>Name on PAN</td><td><input type="text"[(ngModel)]="applObj.nameOnPAN"> </td></tr><br>
+<tr><td>Address Line1</td><td><input type="text"[(ngModel)]="applObj.addressLine1"> </td></tr><br>
+<tr><td>Address Line2</td><td><input type="text"[(ngModel)]="applObj.addressLine2"> </td></tr><br>
+<tr><td>City</td><td><input type="text"[(ngModel)]="applObj.city"> </td></tr><br>
+<tr><td>State</td><td><input type="text"[(ngModel)]="applObj.state"> </td></tr><br>
+<tr><td>Pincode</td><td><input type="text"[(ngModel)]="applObj.pincode"> </td></tr><br>
+<tr><td>Country</td><td><input type="text"[(ngModel)]="applObj.country"> </td></tr><br>
+<tr><td>Educational Qualification</td><td><input type="text"[(ngModel)]="applObj.educationalQualification"> </td></tr><br>
+<tr><td>Occupation</td><td><input type="text"[(ngModel)]="applObj.occupation"> </td></tr><br>
+<tr><td>Annual Income</td><td><input type="text"[(ngModel)]="applObj.annualIncome"> </td></tr><br>
+<tr><td>Religion</td><td><input type="text"[(ngModel)]="applObj.religion"> </td></tr><br>
+<tr><td>Inb Rights</td><td><input type="text"[(ngModel)]="applObj.inbRights"> </td></tr><br>
+<tr><td>SMS Alert</td><td><input type="text"[(ngModel)]="applObj.smsAlerts"> </td></tr><br>
+<tr><td>Cheque Book</td><td><input type="text"[(ngModel)]="applObj.chequeBook"> </td></tr><br>
+<tr><td>Debit Card</td><td><input type="text"[(ngModel)]="applObj.debitCard"> </td></tr><br>
+<tr><td>Name on Card</td><td><input type="text"[(ngModel)]="applObj.nameOnCard"> </td></tr><br>
+<tr><td>Nominee Required</td><td><input type="text"[(ngModel)]="applObj.nomineeReq"> </td></tr><br>
+<tr><td>Nominee name</td><td><input type="text"[(ngModel)]="applObj.nomineeName"> </td></tr><br>
+<tr><td>Nominee Relationship</td><td><input type="text"[(ngModel)]="applObj.nomineeRel"> </td></tr><br>
+<tr><td>Nominee Address Line1</td><td><input type="text"[(ngModel)]="applObj.nomineeAddressLine1"> </td></tr><br>
+<tr><td>Nominee Address Line2</td><td><input type="text"[(ngModel)]="applObj.nomineeAddressLine2"> </td></tr><br>
+<tr><td>Nominee Date of Birth</td><td><input type="date"[(ngModel)]="applObj.nomineeDOB"> </td></tr><br>
+<tr><td>Nominee state</td><td><input type="text"[(ngModel)]="applObj.nomineeState"> </td></tr><br>
+<tr><td>Nominee pincode</td><td><input type="text"[(ngModel)]="applObj.nomineePincode"> </td></tr><br>
+<tr><td>Nominee country</td><td><input type="text"[(ngModel)]="applObj.nomineeCountry"> </td></tr><br>
+<tr><td>Guardian name</td><td><input type="text"[(ngModel)]="applObj.guardianName"> </td></tr><br>
+<tr><td>Guardian Relationship</td><td><input type="text"[(ngModel)]="applObj.guardianRel"> </td></tr><br>
+
+</table>
+<td><button (click)="addApplicant()">ADD</button></td> 
